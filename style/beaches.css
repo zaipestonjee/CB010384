@@ -1,0 +1,109 @@
+*
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(19, 18, 18);
+}
+
+h1,h2,h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    margin: 0.5em 0;
+}
+h1{
+    text-align: center;
+    font-size: 2.2em;
+    color: white;
+}
+h3{
+    font-style: oblique;
+}
+header,footer{
+    background: fixed peachpuff;
+    padding: 1em;
+    margin: 0;
+}
+footer{
+    text-align: center;
+}
+.logo{
+    float: left;
+}
+
+#navbar ul{
+list-style-type: none;
+padding: 0.28em;
+margin: 0.28em;
+display: flex;
+flex-flow: row wrap;
+align-items: center;
+justify-content: center;
+}
+#navbar li{
+    flex-grow: 1;   
+    border: 2px rgb(255, 167, 2) solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1em;
+    position: relative;
+    padding-right: 50px;
+    padding: 0;
+}
+#navbar li:nth-of-type(1) {
+    padding: 0;
+}
+#navbar a{
+    background-repeat: no-repeat;
+    background-size: 40px auto;
+    background-position: 0.5em center; 
+    min-height: 30px;
+    line-height: 30px; 
+    text-decoration: none;
+    display: block;
+    color: rgb(19, 18, 18);
+}
+
+#navbar{
+    background-color:wheat;
+    color: black;
+    position:relative;
+    top:0;
+}
+.navtext{
+    padding-left: 60px;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#navbar a:hover{
+    background:  rgb(0, 128, 255);
+    padding: 0.2em;
+    align-items: center;
+    align-self: center;
+    color: darkcyan;
+}
+
+.para1{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        font-family:'Times New Roman', Times, serif;
+        color:  rgb(8, 206, 28);
+        min-width: 30px;
+        max-width: 50em;
+        font:bolder larger larger larger;
+        text-align: center;
+    }
+
+#sec1{
+    width:45%;
+    padding: 2em;
+    margin:0 auto;
+    background-color: turquoise;   
+    }
+.link{
+        color: blue;
+        font-size: large;
+    } 
+#Beaches{
+background-image: url(images/best-beaches-sri-lanka-fisherman\ salitinourhair.webp);
+}
