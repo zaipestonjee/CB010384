@@ -1,0 +1,148 @@
+*
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(19, 18, 18);
+}
+
+h1,h2,h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    margin: 0.5em 0;
+}
+h1{
+    text-align: center;
+    font-size: 2.2em;
+}
+h3{
+    font-style: oblique;
+}
+header,footer{
+    background: fixed peachpuff;
+    padding: 1em;
+    margin: 0;
+}
+footer{
+    text-align: center;
+}
+.logo{
+    float: left;
+}
+
+#navbar ul{
+list-style-type: none;
+padding: 0;
+margin: 0;
+display: flex;
+flex-flow: row wrap;
+align-items: center;
+justify-content: center;
+}
+#navbar li{
+    flex-grow: 1;   
+    border: 2px rgb(255, 167, 2) solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1em;
+    position: relative;
+    padding-right: 50px;
+    padding: 0;
+}
+#navbar li:nth-of-type(1) {
+    padding: 0;
+}
+#navbar a{
+    background-repeat: no-repeat;
+    background-size: 40px auto;
+    background-position: 0.5em center; 
+    min-height: 30px;
+    line-height: 30px; 
+    text-decoration: none;
+    display: block;
+    color: rgb(19, 18, 18);
+}
+
+#navbar{
+    background-color:peachpuff;
+    color: black;
+    position:relative;
+    top:0;
+}
+.navtext{
+    padding-left: 60px;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#navbar a:hover{
+    background:  rgb(0, 128, 255);
+    padding: 0.2em;
+    align-items: center;
+    align-self: center;
+    color: darkcyan;
+}
+@media only screen and (min-device-width: 375px) and (max-device-width: 915px)
+{
+   #img1,#img2,#img3,#img4,#img5{
+       width: 50;
+       height: 180;
+       position: sticky;
+   } 
+}
+
+
+#sec1{
+    color: black solid;
+    background-color: turquoise;
+    padding: 0.2em;
+    margin: 0;
+    background-color: turquoise;
+}
+
+.para1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black solid;
+    min-width: 30px;
+    max-width: 50em;
+}
+
+#sec2{
+        color: black solid;
+        background-color: turquoise;
+        padding:2em;
+        margin:0 auto;
+        width:55%;
+} 
+#sec3{
+    color: black solid;
+    background-color: turquoise;
+    padding:2em;
+    margin:0 auto;
+    width:55%;
+}
+#sec4{
+    color: black solid;
+    background-color: turquoise;
+    padding:2em;
+    margin:0 auto;
+    width:55%;
+}
+#sec5{
+    color: black solid;
+    background-color: turquoise;
+    padding:2em;
+    margin:0 auto;
+    width:55%;
+}
+#sec6{
+    color: black solid;
+    background-color: turquoise;
+    padding:2em;
+    margin:0 auto;
+    width:55%;
+}
+#Activities{
+    background-image: url(images/backgrouund\ pic\ activities\ pg\ culture\ trip.webp) ;
+}
